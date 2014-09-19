@@ -1,0 +1,8 @@
+// Non-modular or client styles for the .l-content region.
+
+
+$row-width: rem-calc(1200);
+$main-row: rem-calc(980);
+
+.row {max-width:$row-width;}
+

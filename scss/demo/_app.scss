@@ -1,0 +1,24 @@
+/* Row Styles */
+.row {
+  max-width: 100rem;
+}
+
+/* Footer styles */
+.l-footer.panel {
+  background-color: $primary-color;
+  color: $body-bg;
+  padding: 75px 0 220px;
+  border: 0;
+  margin-bottom: 0;
+  line-height: $paragraph-line-height;
+  
+  a {
+    &:link,
+    &:visited,
+    &:hover,
+    &:active {
+      color: $success-color;
+    }
+  }
+}
+
